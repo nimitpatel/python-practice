@@ -1,5 +1,12 @@
+'''
+Create a Python program to read a text file and do following:
+1. Print no. of lines
+2. Print no. of unique words
+3. Store each word with its occurrence in dictionary
+'''
+
 # Open the file in read mode 
-text = open("text.txt", "r") 
+text = open("w184c.txt", "r") 
   
 # Create an empty dictionary 
 d = dict() 
